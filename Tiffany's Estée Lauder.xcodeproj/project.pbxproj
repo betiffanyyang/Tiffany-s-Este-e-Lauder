@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271A167528B092270097BF7F /* CremeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271A167428B092270097BF7F /* CremeViewController.swift */; };
+		271A167728B0923E0097BF7F /* FoundationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271A167628B0923E0097BF7F /* FoundationViewController.swift */; };
+		271A167928B098C90097BF7F /* TrueOrFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271A167828B098C90097BF7F /* TrueOrFalseViewController.swift */; };
+		271A167B28B098E80097BF7F /* UndertoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271A167A28B098E80097BF7F /* UndertoneViewController.swift */; };
+		271A167D28B0ACBD0097BF7F /* DiversitySlugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271A167C28B0ACBD0097BF7F /* DiversitySlugViewController.swift */; };
+		27BC456728ADE2BA003D63C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC456628ADE2BA003D63C2 /* AppDelegate.swift */; };
+		27BC456928ADE2BA003D63C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC456828ADE2BA003D63C2 /* SceneDelegate.swift */; };
+		27BC456B28ADE2BA003D63C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC456A28ADE2BA003D63C2 /* ViewController.swift */; };
+		27BC456E28ADE2BA003D63C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BC456C28ADE2BA003D63C2 /* Main.storyboard */; };
+		27BC457028ADE2BB003D63C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BC456F28ADE2BB003D63C2 /* Assets.xcassets */; };
+		27BC457328ADE2BB003D63C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BC457128ADE2BB003D63C2 /* LaunchScreen.storyboard */; };
+		27BC457B28AE11AB003D63C2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC457A28AE11AB003D63C2 /* AboutViewController.swift */; };
+		27BC457D28AE1206003D63C2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC457C28AE1206003D63C2 /* HomeViewController.swift */; };
+		27BC457F28AE1217003D63C2 /* HomeAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC457E28AE1217003D63C2 /* HomeAboutViewController.swift */; };
+		27BC458128AE1223003D63C2 /* UhOhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC458028AE1223003D63C2 /* UhOhViewController.swift */; };
+		27BC458328AE1231003D63C2 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC458228AE1231003D63C2 /* ProductsViewController.swift */; };
+		27BC458528AE1254003D63C2 /* CongratulationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC458428AE1254003D63C2 /* CongratulationsViewController.swift */; };
+		27BC458728AE12A4003D63C2 /* DiversityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC458628AE12A4003D63C2 /* DiversityViewController.swift */; };
+		27BC458928AE1D23003D63C2 /* AdvancedNightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC458828AE1D23003D63C2 /* AdvancedNightViewController.swift */; };
+		27BC458B28AE1D57003D63C2 /* SecondSlugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC458A28AE1D57003D63C2 /* SecondSlugViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		271A167428B092270097BF7F /* CremeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CremeViewController.swift; sourceTree = "<group>"; };
+		271A167628B0923E0097BF7F /* FoundationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationViewController.swift; sourceTree = "<group>"; };
+		271A167828B098C90097BF7F /* TrueOrFalseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueOrFalseViewController.swift; sourceTree = "<group>"; };
+		271A167A28B098E80097BF7F /* UndertoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndertoneViewController.swift; sourceTree = "<group>"; };
+		271A167C28B0ACBD0097BF7F /* DiversitySlugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversitySlugViewController.swift; sourceTree = "<group>"; };
+		27BC456328ADE2BA003D63C2 /* Tiffany's Estée Lauder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiffany's Estée Lauder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BC456628ADE2BA003D63C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27BC456828ADE2BA003D63C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27BC456A28ADE2BA003D63C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27BC456D28ADE2BA003D63C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27BC456F28ADE2BB003D63C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27BC457228ADE2BB003D63C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27BC457428ADE2BB003D63C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BC457A28AE11AB003D63C2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		27BC457C28AE1206003D63C2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		27BC457E28AE1217003D63C2 /* HomeAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAboutViewController.swift; sourceTree = "<group>"; };
+		27BC458028AE1223003D63C2 /* UhOhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UhOhViewController.swift; sourceTree = "<group>"; };
+		27BC458228AE1231003D63C2 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		27BC458428AE1254003D63C2 /* CongratulationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationsViewController.swift; sourceTree = "<group>"; };
+		27BC458628AE12A4003D63C2 /* DiversityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityViewController.swift; sourceTree = "<group>"; };
+		27BC458828AE1D23003D63C2 /* AdvancedNightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedNightViewController.swift; sourceTree = "<group>"; };
+		27BC458A28AE1D57003D63C2 /* SecondSlugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSlugViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BC456028ADE2BA003D63C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27BC455A28ADE2BA003D63C2 = {
+			isa = PBXGroup;
+			children = (
+				271A167C28B0ACBD0097BF7F /* DiversitySlugViewController.swift */,
+				27BC456528ADE2BA003D63C2 /* Tiffany's Estée Lauder */,
+				27BC456428ADE2BA003D63C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27BC456428ADE2BA003D63C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BC456328ADE2BA003D63C2 /* Tiffany's Estée Lauder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BC456528ADE2BA003D63C2 /* Tiffany's Estée Lauder */ = {
+			isa = PBXGroup;
+			children = (
+				27BC456628ADE2BA003D63C2 /* AppDelegate.swift */,
+				27BC456828ADE2BA003D63C2 /* SceneDelegate.swift */,
+				27BC456A28ADE2BA003D63C2 /* ViewController.swift */,
+				27BC457A28AE11AB003D63C2 /* AboutViewController.swift */,
+				27BC457C28AE1206003D63C2 /* HomeViewController.swift */,
+				27BC458228AE1231003D63C2 /* ProductsViewController.swift */,
+				27BC458028AE1223003D63C2 /* UhOhViewController.swift */,
+				27BC457E28AE1217003D63C2 /* HomeAboutViewController.swift */,
+				27BC458428AE1254003D63C2 /* CongratulationsViewController.swift */,
+				27BC458628AE12A4003D63C2 /* DiversityViewController.swift */,
+				27BC458828AE1D23003D63C2 /* AdvancedNightViewController.swift */,
+				27BC458A28AE1D57003D63C2 /* SecondSlugViewController.swift */,
+				271A167428B092270097BF7F /* CremeViewController.swift */,
+				271A167628B0923E0097BF7F /* FoundationViewController.swift */,
+				271A167828B098C90097BF7F /* TrueOrFalseViewController.swift */,
+				271A167A28B098E80097BF7F /* UndertoneViewController.swift */,
+				27BC456C28ADE2BA003D63C2 /* Main.storyboard */,
+				27BC456F28ADE2BB003D63C2 /* Assets.xcassets */,
+				27BC457128ADE2BB003D63C2 /* LaunchScreen.storyboard */,
+				27BC457428ADE2BB003D63C2 /* Info.plist */,
+			);
+			path = "Tiffany's Estée Lauder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BC456228ADE2BA003D63C2 /* Tiffany's Estée Lauder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BC457728ADE2BB003D63C2 /* Build configuration list for PBXNativeTarget "Tiffany's Estée Lauder" */;
+			buildPhases = (
+				27BC455F28ADE2BA003D63C2 /* Sources */,
+				27BC456028ADE2BA003D63C2 /* Frameworks */,
+				27BC456128ADE2BA003D63C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tiffany's Estée Lauder";
+			productName = "Tiffany's Estée Lauder";
+			productReference = 27BC456328ADE2BA003D63C2 /* Tiffany's Estée Lauder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BC455B28ADE2BA003D63C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					27BC456228ADE2BA003D63C2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 27BC455E28ADE2BA003D63C2 /* Build configuration list for PBXProject "Tiffany's Estée Lauder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27BC455A28ADE2BA003D63C2;
+			productRefGroup = 27BC456428ADE2BA003D63C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BC456228ADE2BA003D63C2 /* Tiffany's Estée Lauder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BC456128ADE2BA003D63C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BC457328ADE2BB003D63C2 /* LaunchScreen.storyboard in Resources */,
+				27BC457028ADE2BB003D63C2 /* Assets.xcassets in Resources */,
+				27BC456E28ADE2BA003D63C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BC455F28ADE2BA003D63C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BC458528AE1254003D63C2 /* CongratulationsViewController.swift in Sources */,
+				27BC457D28AE1206003D63C2 /* HomeViewController.swift in Sources */,
+				27BC456B28ADE2BA003D63C2 /* ViewController.swift in Sources */,
+				271A167928B098C90097BF7F /* TrueOrFalseViewController.swift in Sources */,
+				27BC458328AE1231003D63C2 /* ProductsViewController.swift in Sources */,
+				27BC458728AE12A4003D63C2 /* DiversityViewController.swift in Sources */,
+				27BC456728ADE2BA003D63C2 /* AppDelegate.swift in Sources */,
+				27BC458128AE1223003D63C2 /* UhOhViewController.swift in Sources */,
+				271A167728B0923E0097BF7F /* FoundationViewController.swift in Sources */,
+				27BC457F28AE1217003D63C2 /* HomeAboutViewController.swift in Sources */,
+				271A167528B092270097BF7F /* CremeViewController.swift in Sources */,
+				271A167B28B098E80097BF7F /* UndertoneViewController.swift in Sources */,
+				27BC457B28AE11AB003D63C2 /* AboutViewController.swift in Sources */,
+				27BC456928ADE2BA003D63C2 /* SceneDelegate.swift in Sources */,
+				27BC458928AE1D23003D63C2 /* AdvancedNightViewController.swift in Sources */,
+				27BC458B28AE1D57003D63C2 /* SecondSlugViewController.swift in Sources */,
+				271A167D28B0ACBD0097BF7F /* DiversitySlugViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27BC456C28ADE2BA003D63C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BC456D28ADE2BA003D63C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27BC457128ADE2BB003D63C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BC457228ADE2BB003D63C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27BC457528ADE2BB003D63C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27BC457628ADE2BB003D63C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27BC457828ADE2BB003D63C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWN4ZGF43D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tiffany's Estée Lauder/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tiffany.Tiffany-s-Este-e-Lauder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27BC457928ADE2BB003D63C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWN4ZGF43D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tiffany's Estée Lauder/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tiffany.Tiffany-s-Este-e-Lauder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BC455E28ADE2BA003D63C2 /* Build configuration list for PBXProject "Tiffany's Estée Lauder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BC457528ADE2BB003D63C2 /* Debug */,
+				27BC457628ADE2BB003D63C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BC457728ADE2BB003D63C2 /* Build configuration list for PBXNativeTarget "Tiffany's Estée Lauder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BC457828ADE2BB003D63C2 /* Debug */,
+				27BC457928ADE2BB003D63C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27BC455B28ADE2BA003D63C2 /* Project object */;
+}
